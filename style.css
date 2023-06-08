@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 36px;
+    color: #333;
+  }
+  
+  button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #333;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    
+  }
+  /* SEZIONE HOVER */
+  button:hover {
+    background-color: #555;
+  }
+  
+  .numero {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #333;
+    border-radius: 50%;
+    
+  }
+  
+  .numero.disabled {
+    opacity: 0.5;
+    cursor: default;
+  }
+  
+  .numero.estratto {
+    background-color: #f00;
+  }
